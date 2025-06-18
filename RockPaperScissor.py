@@ -50,3 +50,13 @@ for i in range(0,n):
     print("3....2....1....")
     choice=input("Now choose")
     Game(choice)
+choice=input("Do you wanna play again? y/n ")
+if choice.lower()=='y':
+   print("Are you ready for the GAME ?\nChoose amongs rock, paper or scissors")
+   n=int(input("For how many points you want to play?"))
+   for i in range(0,n):
+     print("3....2....1....")
+     choice=input("Now choose")
+     Game(choice)
+   else:
+    print("Thanks for playing")
